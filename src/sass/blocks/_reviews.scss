@@ -1,0 +1,49 @@
+.reviews {
+    padding: 50px 10px 70px 10px;
+    &__title {
+        color: #000000;
+        text-align: center;
+    }
+    &__subtitle {
+        font-size: 21px;
+        text-align: center;
+        font-weight: 500;
+    }
+    &__img {
+        display: block;
+        width: 114px;
+        margin: 25px auto 0px auto;
+    }
+    &__slider {
+        &-current {
+            width: 600px;
+            margin: 0 auto;
+        }
+    }
+    &__author {
+        margin-top: 10px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 500;
+    }
+    &__text {
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    &__controls {
+        position: relative;
+    }
+    &__arrow {
+        &-left {
+            position: absolute;
+            left: 30%;
+            top: 30px;
+        }
+        &-right {
+            position: absolute;
+            right: 30%;
+            top: 30px;
+        }
+    }
+}

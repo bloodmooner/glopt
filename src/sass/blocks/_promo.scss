@@ -1,0 +1,122 @@
+.promo {
+    min-height: 680px;
+    width: 100%;
+    background: url('../../img/main_bg.png') no-repeat 50%/cover;
+    padding: 20px 10px 80px 10px;
+
+    &__wrapper-header {
+        display: grid;
+        grid-template-columns: 100px 600px 340px;
+        grid-template-rows: 105px;
+        column-gap: 50px;
+        align-items: center;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin-bottom: 0;
+        li {
+            display: inline;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 300;
+        }
+    }
+    &__item-header {
+        
+    }
+    &__item-contact {
+        display: grid;
+        grid-template-columns: repeat(2, 160px);
+        grid-template-rows: 50px;
+        column-gap: 15px;
+        text-align: right;
+        div {
+            color: #ffffff;
+            font-weight: 300;
+            font-size: 14px;
+            span {
+                font-weight: 700;
+                font-size: 18px;
+            }
+        }
+    }
+
+    &__header {
+        margin-top: 30px;
+        width: 770px;
+        text-align: center;
+        font-weight: 300;
+    }
+    &__title {
+        width: 1050px;
+        text-align: center;
+        color: #ec644b;
+    }
+    &__subtitle {
+        width: 990px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    &__divider {
+        width: 977px;
+        margin: 20px auto 0 auto;
+        height: 1px;
+        background-color: #fff;
+    }
+    &__circle {
+        position: relative;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30px;
+        height: 30px;
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate3d(-50%, -50%, 0);
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background-color: #fff;
+        }
+    }
+    &__advantages-wrapper {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(4, 263px);
+        grid-template-rows: 125px;
+        column-gap: 30px;
+        justify-content: center;
+    }
+
+    &__advantages-img {
+        margin: 0 auto;
+        display: block;
+        width: 64px;
+        height: 48px;
+        img {
+            width: 64px;
+            height: 48px;
+        }
+    }
+    &__advantages-descr {
+        margin-top: 20px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    &__btn {
+        width: 230px;
+        height: 57px;
+        display: block;
+        margin: 60px auto 0 auto;
+        font-size: 15px;
+    }
+}

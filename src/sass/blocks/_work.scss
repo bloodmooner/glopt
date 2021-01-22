@@ -1,0 +1,39 @@
+.work {
+    padding: 50px 10px 60px 10px;
+    &__title {
+        color: #000000;
+        width: 629px;
+    }
+    &__subtitle {
+        width: 900px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 21px;
+        font-weight: 400;
+    }
+    &__wrapper {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        grid-template-rows: 365px;
+        column-gap: 30px;
+    }
+    &__descr {
+        position: relative;
+    }
+    &__header {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 250px;
+        margin-top: 20px;
+        font-size: 18px;
+        color: #ec644b;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}

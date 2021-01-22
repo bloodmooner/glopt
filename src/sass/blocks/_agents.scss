@@ -1,0 +1,25 @@
+.agents {
+    padding: 60px 10px 60px 10px;
+    min-height: 340px;
+    background: url('../../img/bg_agent.png') no-repeat 50%/cover;
+    &__image {
+        width: 102px;
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+    }
+    &__title {
+        padding-top: 10px;
+        text-transform: unset;
+        font-weight: 500;
+        width: 170px;
+    }
+    &__subtitle {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 19px;
+        color: #ffffff;
+        font-weight: 300;
+    }
+}
